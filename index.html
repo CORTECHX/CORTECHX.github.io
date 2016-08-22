@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+  <!--CHECK IF MOBILE AND REDIRECT IF NESCESARY-->
+<script>
+if (navigator.userAgent.match(/Android/i) || 
+	navigator.userAgent.match(/webOS/i) || 
+	navigator.userAgent.match(/iPhone/i) ||
+	navigator.userAgent.match(/iPad/i) || 
+	navigator.userAgent.match(/iPod/i) ||
+	navigator.userAgent.match(/BlackBerry/i) || 
+	navigator.userAgent.match(/Windows Phone/i))
+{ 
+	window.location = "mobile/index.html";
+}
+</script>
+
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Cortechx official website">
@@ -13,9 +27,8 @@
 	<!--animations css-->
 	<link href="css/animate.min.css" rel="stylesheet">
   </head>
-
   <body>
-	
+
 	<!--bootstrap and JQuery JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
