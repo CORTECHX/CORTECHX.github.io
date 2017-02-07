@@ -1,0 +1,47 @@
+/*custom color to the scrollbar --WEBKIT--*/
+::-webkit-scrollbar {color:black;background-color:black;}
+::-webkit-scrollbar-button {color:#33ccff;background-color:#33ccff;}
+::-webkit-scrollbar-track {color:black;background-color:black;}
+::-webkit-scrollbar-track-piece {color:black;background-color:black;}
+::-webkit-scrollbar-thumb {color:#33ccff;background-color:#33ccff;}
+
+body {
+  padding-top: 50px;
+}
+
+.navbar{
+  background:#000000;
+}
+.nav-item{
+  background:#33ccff;
+}
+.nav-item:hover{
+  background:#343434;
+}
+
+
+
+/*footer styles*/
+footer {
+  background-color:black;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width:100%;
+  position: fixed;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+}
+
+footer p span {
+  float: right;
+  padding-right: 1em;
+}
+
+footer p text {
+  padding-left: 3.5em;
+}
