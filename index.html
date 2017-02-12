@@ -29,7 +29,7 @@ if (navigator.userAgent.match(/Android/i) ||
 	  <!--animations css-->
 	  <link href="css/animate.min.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="top">
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -40,7 +40,7 @@ if (navigator.userAgent.match(/Android/i) ||
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <a style="padding-left:0px;" class="navbar-brand"><img src="">COTECHX</a>
+		  <a style="padding-left:0px;" class="navbar-brand"><img src="">CORTECHX</a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -56,7 +56,11 @@ if (navigator.userAgent.match(/Android/i) ||
     <div class="container">
       <!--part with pic and big words-->
       <div class="intro-space">
-
+        <center>
+          <h1 id="c-name"><font>C</font>ORTECHX</h1>
+          <h3 style="color:black;font-family:aero;">Innovaters. Thinkers. Welcome</h3>
+          <img class="animated infinite bounce" id="arrow" src="img/arrow.png" width="100px" height="80px" alt="arrow" />
+        </center>
       </div>
 
       <div class="about">
@@ -72,12 +76,21 @@ if (navigator.userAgent.match(/Android/i) ||
       </div>
     </div> <!--container end-->
 
+    <img id="to_top" onclick="scrollTo('#top')" width="50px" height="50px" src="img/back_to_top.png" alt="to top"/>
+
     <footer>
-      <p><text>Cortechx</text><span>2017</span></p>
+      <p><span>2017</span><text>Cortechx</text></p>
     </footer>
 
 	<!--bootstrap and JQuery JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function scrollTo(id) {
+        $('html, body').animate({
+              scrollTop: $(id).offset().top
+            }, 'slow');
+        }
+    </script>
   </body>
 </html>
