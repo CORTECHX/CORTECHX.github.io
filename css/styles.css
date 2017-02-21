@@ -16,6 +16,10 @@
   src:url('../fonts/aero.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: square;
+  src:url('../fonts/tt0248m_.ttf') format('truetype');
+}
 /*REGULAR STYLING*/
 body {
   padding-top: 50px;
@@ -68,7 +72,7 @@ body {
 }
 
 .about{
-  border-top: #33ccff solid 10px;
+  border: #33ccff solid 10px;
   margin-bottom: 5%;
 }
 
@@ -122,10 +126,16 @@ footer p span {
  text-align: center;
  text-transform: uppercase;
  font-size: 2.5em;
-
+ font-family: ardestine;
+ font-weight: bold;
 }
 
 #about_p{
+ color: #fff;
  text-align: center;
  font-size: 1.5em;
+ font-family: square;
+ padding-top: 2em;
+ padding-bottom: 2.5em;
+ background-color: #000;
 }
