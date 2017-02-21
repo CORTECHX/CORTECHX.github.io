@@ -115,3 +115,17 @@ footer p span {
   -ms-animation:bounce 1s;
   animation:bounce 1s;
 }
+
+.about{}
+
+.head{
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 2.5em;
+
+}
+
+#about_p{
+ text-align: center;
+ font-size: 1.5em;
+}
