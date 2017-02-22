@@ -72,7 +72,9 @@ body {
 }
 
 .about{
-  border: #33ccff solid 10px;
+  border-top: #33ccff solid 5px;
+  border-left: #33ccff solid 5px;
+  border-right: #33ccff solid 5px;
   margin-bottom: 5%;
 }
 
