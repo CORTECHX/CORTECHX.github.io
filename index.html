@@ -59,7 +59,7 @@ if (navigator.userAgent.match(/Android/i) ||
         <center>
           <h1 id="c-name"><font>C</font>ORTECHX</h1>
           <h3 style="color:black;font-family:aero;">Innovaters. Thinkers. Welcome</h3>
-          <img class="animated infinite bounce" id="arrow" src="img/arrow.png" width="100px" height="80px" alt="arrow" />
+          <img onclick="scrollTo('#arrow')" class="animated infinite bounce" id="arrow" src="img/arrow.png" width="100px" height="80px" alt="arrow" />
         </center>
       </div>
 
@@ -80,7 +80,35 @@ if (navigator.userAgent.match(/Android/i) ||
 
       <div class="services">
         <p class="head">Services</p>
+        <center>
+          <!--web dev-->
+          <div class="web service">
+            <center>
+              <img src="img/web.png" alt="web icon" width="150px" height="150px">
+              <h2>Website Design</h2>
+              <a href="">Start Project</a>
+            </center>
+          </div>
+          <!--app dev-->
+          <div class="app service">
+            <center>
+              <img src="img/app.png" alt="app icon" width="150px" height="150px">
+              <h2>App Development</h2>
+              <a href="">Start Project</a>
+            </center>
+          </div>
+          <!--game dev-->
+          <div class="game service">
+            <center>
+              <img src="img/game.png" alt="game icon" width="150px" height="150px">
+              <h2>Game Development</h2>
+              <a href="">Start Project</a>
+            </center>
+          </div>
+        </center>
+        <p id="more"><a href="#">More services...</a></p>
       </div>
+
     </div> <!--container end-->
 
     <img id="to_top" onclick="scrollTo('#top')" width="50px" height="50px" src="img/back_to_top.png" alt="to top"/>
@@ -92,6 +120,7 @@ if (navigator.userAgent.match(/Android/i) ||
 	<!--bootstrap and JQuery JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script type="text/javascript">
       function scrollTo(id) {
         $('html, body').animate({

@@ -89,9 +89,9 @@ body {
 
 .services{
   border-top: #33ccff solid 5px;
-  border-left: #33ccff solid 5px;
   border-right: #33ccff solid 5px;
-  background: rgba(0, 0, 0, 0.2);
+  border-left: #33ccff solid 5px;
+  background: white;
   margin-bottom: 5%;
 }
 
@@ -113,6 +113,57 @@ body {
  padding-bottom: 2.5em;
  background-color: #000;
 }
+
+.service{
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  color: Black;
+  font-family: aero;
+  border:  #000 solid 5px;
+}
+.service img{
+  -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+.service a{
+  text-decoration: none;
+  font-family: arial;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #33ccff;
+  border:  #000 solid 2px;
+  color: white;
+}
+
+.web:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
+.app:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
+.game:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
+
+#more{
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: aero;
+}
+#more a{
+  text-decoration: none;
+}
+
 
 
 
