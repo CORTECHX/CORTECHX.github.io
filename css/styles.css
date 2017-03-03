@@ -166,6 +166,50 @@ body {
 
 
 
+.contact{
+  text-align: center;
+  border: #33ccff solid 5px;
+  background: black;
+  margin-bottom: 100px;
+}
+.c-head{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: ardestine;
+  font-weight: bold;
+}
+.contact #ctxt{
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: square;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+.contact li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.contact li a img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(51, 204, 255, 0.5));
+}
+.contact li a img:hover{
+  -webkit-animation:tada 1s;
+  -moz-animation:tada 1s;
+  -ms-animation:tada 1s;
+  animation:tada 1s;
+}
+#mail{
+  color: #33ccff;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
 
 /*footer styles*/
 footer {
