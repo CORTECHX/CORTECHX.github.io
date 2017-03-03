@@ -87,6 +87,42 @@ body {
   margin-bottom: 5%;
 }
 
+.team #teamp {
+ background-color: #000;
+ padding-top: 5em;
+ padding-bottom: 5em;
+}
+
+.team #teamp #dbimage {
+ padding-left: 10em;
+}
+
+.team #teamp #sgimage{
+ padding-left: 8em;
+}
+
+.team #teamp #gwimage{
+ padding-left: 8em;
+}
+
+#sgimage:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
+#dbimage:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
+#gwimage:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
 .services{
   border-top: #33ccff solid 5px;
   border-right: #33ccff solid 5px;
@@ -190,8 +226,10 @@ body {
 }
 .contact li{
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 2em;
 }
+
+
 .contact li a img{
   width: 60px;
   height: 60px;
