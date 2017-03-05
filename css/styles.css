@@ -12,6 +12,16 @@
 }
 
 @font-face {
+  font-family: amoceanus;
+  src:url('../fonts/AMOceanus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: amoceanusb;
+  src:url('../fonts/AMOceanusBold.ttf') format('truetype');
+}
+
+@font-face {
   font-family: aero;
   src:url('../fonts/aero.ttf') format('truetype');
 }
@@ -47,16 +57,17 @@ body {
   margin-top:120px;
 }
 
-#c-name{
-  color: white;
-  font-family: ardestine;
-  font-size:100px;
-  text-shadow:1px 10px 15px #000;
-  margin-bottom:20px;
+#c-logo{
+ height: 15em;
 }
-#c-name font{
-  font-size:150px;
-  color: #33ccff;
+
+#c-name{
+ text-transform: uppercase;
+ color: #000;
+ font-family: amoceanusb;
+ letter-spacing: 1em;
+ font-size: 1.3em;
+ padding-left: 1em;
 }
 
 #arrow{
