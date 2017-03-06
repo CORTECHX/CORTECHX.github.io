@@ -216,18 +216,6 @@ body {
   animation:bounce 1s;
 }
 
-#more{
-  color: black;
-  text-align: center;
-  font-size: 1.5em;
-  font-family: aero;
-}
-#more a{
-  text-decoration: none;
-}
-
-
-
 .contact{
   text-align: center;
   border: #33ccff solid 5px;
@@ -274,7 +262,7 @@ body {
 #mail{
   color: #33ccff;
   font-size: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 1em;
 }
 
 
