@@ -33,7 +33,7 @@
 /*REGULAR STYLING*/
 body {
   padding-top: 50px;
-  background: url('../img/bg1_test.jpg');
+  background: url('../img/bg_2.png');
   -ms-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -182,7 +182,7 @@ body {
   padding: 10px;
   color: Black;
   font-family: aero;
-  border:  #000 solid 5px;
+  border:  #000 solid 2px;
 }
 .service img{
   -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
@@ -193,8 +193,12 @@ body {
   font-size: 20px;
   padding: 10px;
   background-color: #33ccff;
-  border:  #000 solid 2px;
+  border:  lightgreen solid 2px;
   color: white;
+  border-radius: 10px;
+}
+.service a:hover{
+  background-color: lightgreen;
 }
 
 .web:hover{
@@ -251,7 +255,6 @@ body {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
-  -webkit-filter: drop-shadow(5px 5px 5px rgba(51, 204, 255, 0.5));
 }
 .contact li a img:hover{
   -webkit-animation:tada 1s;
