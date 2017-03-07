@@ -30,6 +30,7 @@
   font-family: square;
   src:url('../fonts/tt0248m_.ttf') format('truetype');
 }
+
 /*REGULAR STYLING*/
 body {
   padding-top: 50px;
@@ -210,11 +211,20 @@ body {
   -ms-animation:bounce 1s;
   animation:bounce 1s;
 }
+.graphics:hover{
+  -webkit-animation:bounce 1s;
+  -moz-animation:bounce 1s;
+  -ms-animation:bounce 1s;
+  animation:bounce 1s;
+}
 .game:hover{
   -webkit-animation:bounce 1s;
   -moz-animation:bounce 1s;
   -ms-animation:bounce 1s;
   animation:bounce 1s;
+}
+.game{
+  display: none;
 }
 
 .contact{
