@@ -82,6 +82,7 @@ body {
  font-family: amoceanusb;
  letter-spacing: 1em;
  font-size: 1.3em;
+ padding-top: 2em;
  padding-left: 1em;
 }
 
@@ -98,17 +99,13 @@ body {
 }
 
 .about{
-  border-top: #33ccff solid 5px;
-  border-left: #33ccff solid 5px;
-  border-right: #33ccff solid 5px;
+  border-bottom: #33ccff solid 5px;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 5%;
 }
 
 .team{
-  border-top: #33ccff solid 5px;
-  border-left: #33ccff solid 5px;
-  border-right: #33ccff solid 5px;
+  border-bottom: #33ccff solid 5px;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 5%;
 }
@@ -221,23 +218,26 @@ body {
 }
 
 .contact{
+  margin-left: 15em;
+  width: 50em;
   text-align: center;
-  border: #33ccff solid 5px;
+  border-bottom: #33ccff solid 5px;
   background: black;
-  margin-bottom: 100px;
+  margin-bottom: 2.2em;
 }
 .c-head{
+  margin-bottom: 0;
   color: white;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: ardestine;
   font-weight: bold;
 }
 .contact #ctxt{
   color: #fff;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: square;
   padding-top: 2em;
   padding-bottom: 1.5em;
@@ -252,8 +252,8 @@ body {
 
 
 .contact li a img{
-  width: 60px;
-  height: 60px;
+  width: 3em;
+  height: 3em;
   margin-bottom: 10px;
 }
 .contact li a img:hover{
