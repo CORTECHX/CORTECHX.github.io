@@ -210,8 +210,8 @@ body {
 
 .app.service{
  width: 25em;
- margin-left: 10em;
- margin-right: 10em;
+ margin-left: 7em;
+ margin-right: 7em;
  border-left: #000 solid 1px;
  border-right: #000 solid 1px;
 }
