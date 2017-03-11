@@ -198,7 +198,6 @@ body {
 }
 
 .service{
-  margin-left: 10em;
   display: inline-block;
   padding: 10px;
   color: Black;
@@ -207,6 +206,14 @@ body {
 
 .web.service{
  margin-left: 0px;
+}
+
+.app.service{
+ width: 25em;
+ margin-left: 10em;
+ margin-right: 10em;
+ border-left: #000 solid 1px;
+ border-right: #000 solid 1px;
 }
 
 .service img{
