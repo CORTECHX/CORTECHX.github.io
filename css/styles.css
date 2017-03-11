@@ -111,42 +111,52 @@ body {
   margin-bottom: 5%;
 }
 
-.team #teamp {
- background-color: #000;
- padding-top: 5em;
- padding-bottom: 5em;
+#team-imgs {
+  background-color: #000;
+  padding-top: 1em;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.team #teamp #dbimage {
- padding-left: 10em;
+#team-imgs a img{
+  width: 180px;
+  height: 180px;
+  margin-left: 40px;
 }
 
-.team #teamp #sgimage{
- padding-left: 8em;
+.team-name{
+  background: #000;
+  display: none;
+}
+.team-name p{
+  text-align: center;
+  font-family: square;
+  font-size: 25px;
+  color: #33ccff;
 }
 
-.team #teamp #gwimage{
- padding-left: 8em;
-}
 
 #sgimage:hover{
-  -webkit-animation:bounce 1s;
-  -moz-animation:bounce 1s;
-  -ms-animation:bounce 1s;
-  animation:bounce 1s;
+  -webkit-animation:pulse 1s infinite;
+  -moz-animation:pulse 1s infinite;
+  -ms-animation:pulse 1s infinite;
+  animation:pulse 1s infinite;
 }
+
 #dbimage:hover{
-  -webkit-animation:bounce 1s;
-  -moz-animation:bounce 1s;
-  -ms-animation:bounce 1s;
-  animation:bounce 1s;
+  -webkit-animation:pulse 1s infinite;
+  -moz-animation:pulse 1s infinite;
+  -ms-animation:pulse 1s infinite;
+  animation:pulse 1s infinite;
 }
 #gwimage:hover{
-  -webkit-animation:bounce 1s;
-  -moz-animation:bounce 1s;
-  -ms-animation:bounce 1s;
-  animation:bounce 1s;
+  -webkit-animation:pulse 1s infinite;
+  -moz-animation:pulse 1s infinite;
+  -ms-animation:pulse 1s infinite;
+  animation:pulse 1s infinite;
 }
+
+
 .services{
   border-top: #33ccff solid 5px;
   border-right: #33ccff solid 5px;
@@ -228,8 +238,6 @@ body {
 }
 
 .contact{
-  margin-left: 15em;
-  width: 50em;
   text-align: center;
   border-bottom: #33ccff solid 5px;
   background: black;
@@ -252,14 +260,10 @@ body {
   padding-top: 2em;
   padding-bottom: 1.5em;
 }
-.contact ul{
-  right: 100px;
-}
 .contact li{
   display: inline-block;
-  margin-left: 2em;
+  margin-right: 2em;
 }
-
 
 .contact li a img{
   width: 3em;
