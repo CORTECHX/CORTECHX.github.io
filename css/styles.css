@@ -197,14 +197,24 @@ body {
 }
 
 .service{
+  margin-left: 10em;
   display: inline-block;
   padding: 10px;
   color: Black;
-  font-family: aero;
-  border:  #000 solid 2px;
+  font-family: square;
 }
+
+.web.service{
+ margin-left: 0px;
+}
+
 .service img{
   -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+   margin-bottom: 3em;
+}
+
+.service h2{
+  margin-bottom: 1em;
 }
 .service a{
   text-decoration: none;
