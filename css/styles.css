@@ -31,6 +31,16 @@
   src:url('../fonts/tt0248m_.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: LatoM;
+  src:url('../fonts/Lato-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: LatoL;
+  src:url('../fonts/Lato-Light.ttf') format('truetype');
+}
+
 /*REGULAR STYLING*/
 body {
   padding-top: 50px;
@@ -100,12 +110,14 @@ body {
 }
 
 .about{
+  margin-top: 10em;
   border-bottom: #33ccff solid 5px;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 5%;
 }
 
 .team{
+  margin-top: 10em;
   border-bottom: #33ccff solid 5px;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 5%;
@@ -158,6 +170,7 @@ body {
 
 
 .services{
+  margin-top: 10em;
   border-top: #33ccff solid 5px;
   border-right: #33ccff solid 5px;
   border-left: #33ccff solid 5px;
@@ -170,23 +183,21 @@ body {
  text-transform: uppercase;
  font-size: 2.5em;
  font-family: ardestine;
- font-weight: bold;
  text-shadow:1px 1px 10px #33ccff;
 }
 
 #about_p{
  color: #fff;
  text-align: center;
- font-size: 1.5em;
+ font-size: 1.4em;
  font-family: square;
- padding-top: 2em;
- padding-bottom: 2.5em;
+ padding-top: 4em;
+ padding-bottom: 4.5em;
  background-color: #000;
 }
 
 .service{
   display: inline-block;
-  margin: 5px;
   padding: 10px;
   color: Black;
   font-family: aero;
@@ -238,10 +249,11 @@ body {
 }
 
 .contact{
+  margin-top: 10em;
   text-align: center;
   border-bottom: #33ccff solid 5px;
   background: black;
-  margin-bottom: 2.2em;
+  margin-bottom: 0em;
 }
 .c-head{
   margin-bottom: 0;
@@ -255,8 +267,8 @@ body {
 .contact #ctxt{
   color: #fff;
   text-align: center;
-  font-size: 1.3em;
-  font-family: square;
+  font-size: 1.2em;
+  font-family: LatoL;
   padding-top: 2em;
   padding-bottom: 1.5em;
 }
@@ -294,13 +306,14 @@ footer {
   right: 0px;
   bottom: 0px;
   width:100%;
-  position: fixed;
+  position: bottom;
 }
 
 footer p {
   text-align: center;
   font-size: 1.2em;
   color: #666;
+  margin-bottom: 0;
 }
 
 footer p span {
