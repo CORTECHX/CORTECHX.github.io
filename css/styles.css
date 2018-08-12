@@ -1,10 +1,10 @@
-/*custom color to the scrollbar --WEBKIT--
-::-webkit-scrollbar {color:black;background-color:black;}
-::-webkit-scrollbar-button {color:#33ccff;background-color:#33ccff;}
-::-webkit-scrollbar-track {color:black;background-color:black;}
-::-webkit-scrollbar-track-piece {color:black;background-color:black;}
-::-webkit-scrollbar-thumb {color:#33ccff;background-color:#33ccff;}
-*/
+/*custom color to the scrollbar --WEBKIT--*/
+::-webkit-scrollbar {color:#161819;background-color:#161819;}
+::-webkit-scrollbar-button {color:#006c9b;background-color:#006c9b;}
+::-webkit-scrollbar-track {color:#161819;background-color:#161819;}
+::-webkit-scrollbar-track-piece {color:#161819;background-color:#161819;}
+::-webkit-scrollbar-thumb {color:#0097d8;background-color:#0097d8;}
+
 
 /*FONTS*/
 @font-face {
@@ -64,7 +64,7 @@ html, body {
 .intro{
 	height: 100%;
 	width: 100%;
-	margin: 0px; 
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -130,8 +130,8 @@ html, body {
  text-align: center;
  font-size: 1.4em;
  font-family: square;
- padding-top: 4em;
- padding-bottom: 100px;
+ padding-top: 1em;
+ padding-bottom: 20px;
 }
 #portfolio_p{
  color: #fff;
@@ -203,13 +203,13 @@ html, body {
     background-repeat: no-repeat;
 	display: inline-block;
 	box-shadow: 10px 15px 10px rgba(0,0,0,0.5);
-	width:300px; 
+	width:300px;
 	height: 310px;
 	margin:5px;
 	border:2px solid #999;
 }
 .project img{
-	width:200px; 
+	width:200px;
 	height:200px;
 	margin:5px;
 }
